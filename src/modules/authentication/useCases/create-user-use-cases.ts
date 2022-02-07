@@ -21,9 +21,9 @@ export class AuthenticationCreateUseCase implements IUseCase<Partial<Authenticat
       return firebaseUser
     } catch (error) {
       if (error.code === 'auth/email-already-exists') {
-        throw new InvalidParamError('Falha ao criar cliente. O e-mail já está sendo usado por outra conta.')
+        throw new InvalidParamError('Email already exists.')
       }
-      throw new InvalidParamError('Falha ao criar cliente.')
+      throw error
     }
   }
 }
