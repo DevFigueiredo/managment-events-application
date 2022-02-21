@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-facebook",
+        {
+          "userTrackingPermission": false
+        }
+      ]
+    ],
+    "name": "eventsApplication",
+    "slug": "eventsApplication",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "io.expo.eventsapplication"
+    }
+  },
+  "name": "eventsApplication"
+}
