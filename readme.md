@@ -3,11 +3,11 @@
 Criar uma plataforma que realiza o gerenciamento de eventos em um municipio, integrado a um aplicativo que os clientes poderão fazer suas inscrições.
 A idéia, é simplificar a aplicação, no menor nivel de necessidades, para aplicar também conhecimentos de conceitos do S.O.L.I.D e aplicação do Clean Code.
 
-# Objetivo Aplicação Mobile
+## Objetivo Aplicação Mobile
 
 Criar aplicação mobile, para usuários inscrever-se em eventos realizados em seus municipios.
 
-# Objetivo Aplicação Backend - SOLID / Clean Code
+## Objetivo Aplicação Backend - SOLID / Clean Code
 
 Criar aplicação backend, utilizando conceitos de clean code e apllicação de alguns conceitos do S.O.L.I.D. Além disto, aplicado pratica em utilização de containerização singleton das classes, gerenciamento de usuários com Firebase, gerenciamento de eventos de estabelecimentos!
 
@@ -56,6 +56,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [Expo](https://expo.dev/)
+- [Firebase](https://firebase.google.com/?hl=pt)
 
 Desenvolvido por Daniel Miranda de Figueiredo
 
